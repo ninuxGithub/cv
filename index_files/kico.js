@@ -120,5 +120,5 @@ function bk_image(selector) {
 
 // 请保留版权说明
 if (window.console && window.console.log) {
-    console.log("\n %c Kico Style %c https://www.binkic.com \n\n","color: #fff; background: #3498db; padding: 5px 0;","background: #efefef; padding: 5px 0; text-decoration: none;");
+    console.log("\n %c ninuxGithub %c https://ninuxgithub.github.io/cv/index.html\n\n","color: #fff; background: #3498db; padding: 5px 0;","background: #efefef; padding: 5px 0; text-decoration: none;");
 }
