@@ -1,6 +1,6 @@
 # cv 
 个人简历
-链接地址：[ninuxGithub 个人简历链接](https://ninuxgithub.github.io/cv/index.html#skills)
+链接地址：[ninuxGithub 个人简历链接](https://ninuxgithub.github.io/cv/index.html)
    
 
 # 鸣谢
