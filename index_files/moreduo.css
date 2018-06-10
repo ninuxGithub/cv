@@ -103,12 +103,12 @@ main section{
     }
 }
 
-#info{ background: url(img/bg-1.png) fixed; }
+#info{ background: url(img/bg-1.png) fixed; z-index: 100;}
 /*#skills{ background: #f8bd24; }*/
-#skills{ background: url(img/bg-2.png) fixed; }
-#expirence{ background: url(img/bg-2.png) fixed; }
-#project{ background: url(img/bg-2.png) fixed; }
-#works{ background: url(img/bg-3.png) fixed; }
+#skills{ background: url(img/bg-2.png) fixed; z-index: 100; }
+#expirence{ background: url(img/bg-2.png) fixed;z-index: 100; }
+#project{ background: url(img/bg-2.png) fixed;z-index: 100; }
+#works{ background: url(img/bg-3.png) fixed;z-index: 100; }
 
 .title{
     margin-bottom: 1em;
@@ -208,4 +208,15 @@ footer{
 }
 footer a{
     color: inherit;
+}
+#footer{
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    background: #72655b;
+    z-index: -10;
+}
+#footer a{
+    /*color: inherit;*/
+    z-index: 100;
 }
