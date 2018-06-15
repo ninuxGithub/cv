@@ -85,6 +85,8 @@ function bk_overlay(attr){
 
 // 图片放大
 kico.image_box = document.createElement("div");
+kico.image_box.style.zIndex=200;
+
 kico.image_box.className = "bk-image";
 kico.image_single = document.createElement("img");
 kico.image_box.appendChild(kico.image_single);
