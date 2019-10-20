@@ -12,7 +12,7 @@ function bk_notice(content, attr) {
 
     kico.notice_list.appendChild(notice_item);
 
-    if(!document.querySelector("body > .bk-notice-list")){document.body.appendChild(kico.notice_list);}
+    if(!document.querySelector("body > .bk-notice-list")){document.body.appendChild(kico.notice_list);console.dir(kico.notice_list)}
 
     if(attr && attr.time){
         setTimeout(notice_remove, attr.time);
@@ -123,4 +123,16 @@ function bk_image(selector) {
 // 请保留版权说明
 if (window.console && window.console.log) {
     console.log("\n %c ninuxGithub %c https://ninuxgithub.github.io/cv/index.html \n\n","color: #fff; background: #3498db; padding: 5px 0;","background: #efefef; padding: 5px 0; text-decoration: none;");
+}
+
+
+
+function showMe(dom) {
+    console.dir(dom.nextElementSibling.style.display)
+    var display = dom.nextElementSibling.style.display;
+    if(display =="block"){
+        dom.nextElementSibling.style.display= 'none';
+    }else{
+        dom.nextElementSibling.style.display= 'block';
+    }
 }
